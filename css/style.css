@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{font-family: 'Poppins', sans-serif;}
+
+
+header{
+    background: #F0FFF0;
+    margin-bottom: 60px;
+}
+header .navbar-brand{
+    max-width: 200px; margin: 5px 0px;
+}
+header .navbar-brand img{}
+header ul{}
+header ul li{}
+header ul li a{}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+    background-color: #21B573;
+    transition: all 0.4s linear;
+
+}
+
+ .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+    background-color: #21B573;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 30px;
+
+ }
+
+
+.banner{margin: 40px 0px;}
+.banner span{
+    color: #fd511a;
+    padding: 0px 0px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0px;
+}
+.banner h1 strong{
+    font-weight: 700;
+    color: #21b573;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6B6B;
+}
+.banner-img{
+    margin: 40px 0px;
+}
+.banner-img img{}
+
+
+.btn-custom{color: white;
+    background-color: #21B573;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 30px;
+}
+
+.btn-custom:hover{
+    background: #56548C;
+    color: white;
+}
+
+
+.feature-section{margin: 50px 0px;margin-bottom: 90px;}
+.feature{text-align: center;background: #F8FFFB;margin: 10px 0px;padding: 50px;border-radius: 10px;box-shadow: 0px 20px 40px 0px rgb(0 0 0 / 10%); }
+
+
+.feature:hover{text-align: center;background: white;margin: 10px 0px;padding: 50px;border-radius: 10px;box-shadow: 0px 20px 40px 0px transparent;transition: all 0.4s linear; }
+
+
+.feature img{height: 85px;margin: 10px 0px;max-width: 100%;/* width: 270px; */}
+.feature h2{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+.feature p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0px;
+    color: #585859;
+}
+
+
+/************************course-section***************************/
+
+
+.course-section{
+    margin: 50px 0px;
+    margin-top: 90px;
+}
+.heading{}
+.heading h1{text-align: center;margin: 40px 0px;font-size: 36px;font-weight: 700;margin-bottom: 55px;}
+
+
+.card{padding: 10px;height: 450px;width: 340px;background: #ffffff;
+    display: block;border-radius: 10px;
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);}
+
+.card:hover{
+    box-shadow: 0px 10px 40px transparent; transition: all 0.4s linear;}
+
+}
+
+
+.card img{
+    width: 331px;
+    height: 234px;
+    margin: auto;
+}
+.card h5{}
+.card p{}
+
+.post-info{}
+.post-info li{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.post-info li i{
+    padding: 0px 3px;
+}
+.post-info span{font-size: 16px;}
+
+
+
+.testimonial-section{
+    margin: 80px 0px;
+}
+.testimonial-section img{
+    width: 120px;
+}
+.testimonial-section p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+.testimonial-img{}
+
+
+
+footer{
+    background: #282531;
+    padding: 50px 0px;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+footer .widget{
+    width: 127px;
+    padding: 0px;
+    margin: 0px 35px;
+    margin-bottom: 75px;
+}
+footer h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+footer ul{}
+footer li{}
+footer a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 2px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+footer .f{}
+
+footer a:hover{
+    color: #21B573;
+    transition: all 0.4s linear;
+}
+
+
+
+.copyright{
+    text-align: center;
+    /* margin: 30px 0px; */
+    /* margin-bottom: 60px; */
+}
+.copyright p{}
+
+
+
+
+/*------------------------------   Media Query  ------------------------------*/
+
+/*------------------------------   Media Query  ------------------------------*/
+
+/*------------------------------   Media Query  ------------------------------*/
+
+
+
+
+
+
+
+
+@media(max-width: 992px){
+    .card {
+    padding: 10px !important;
+    height: 450px !important;
+    width: 273px !important;
+    display: block !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+}
+
+.feature img {
+    height: 70px !important;
+    margin: 5px 0px !important;}
+
+.feature h2 {
+    font-size: 16px !important;
+}
+.feature {
+    text-align: center !important;
+    padding: 50px !important;
+    height: 230px !important;
+    width: 400px !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+    }
+.testimonial-img {
+    text-align: center !important;
+    margin-bottom: 30px !important;
+}
+.testimonial-section p{
+    text-align: center !important;
+}
+footer .f {
+    text-align: center !important;
+    margin-bottom: 100px !important;
+}
+
+footer p {
+    font-size: 16px !important;
+    font-weight: 400 !important;}
+
+.col-lg-2 {
+    margin: auto !important;
+}
+
+}
+
+
+
+
+
+@media(max-width: 576px) {
+    header .navbar-brand img {
+    max-width: 180px!important;
+ }
+ .navbar-toggler {
+    padding: 0.25rem 0.25rem!important;
+    font-size: 1rem!important;}
+ .banner h1 {
+    font-size: 30px!important;}
+.banner p {
+    font-weight: 400!important;
+    font-size: 15px!important;
+}
+.btn-custom {
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+    font-size: 14px!important;
+!important;}
+.feature {
+    width: 340px!important;}
+.card {
+    height: 450px!important;
+    width: 230px!important;
+
+}
+footer a {
+    font-size: 15px!important;}
+footer p {
+    font-size: 15px!important;
+    font-weight: 400!important;
+}
+footer .widget {
+    width: 130px!important;
+    padding: 0px!important;
+    margin-bottom: 75px!important;
+}
+.col-md-2 {
+    margin: auto!important;
+}
+}
